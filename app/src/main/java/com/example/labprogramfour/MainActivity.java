@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         if(!running){
-               new Timer().schedule(new MyTimer(),0,300);
+               new Timer().schedule(new MyTimer(),0,50);
                running=true;
         }
     }
